@@ -44,16 +44,6 @@ This repository holds the source for my personal website and portfolio. It's whe
 └── README.md
 ```
 
-## 🚀 Running Locally
-
-```bash
-git clone https://github.com/JunoYYan/JunoYYan.github.io.git
-cd JunoYYan.github.io
-python3 -m http.server 8000
-```
-
-Then open <http://localhost:8000> in your browser.
-
 ## 📦 Deployment
 
 The site is deployed automatically with **GitHub Pages**. Every push to `main` is live at **[junoyyan.github.io](https://junoyyan.github.io/)**.

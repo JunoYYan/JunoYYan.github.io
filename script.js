@@ -1,6 +1,12 @@
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Email link: assemble the address only on click so it isn't in the page source
+document.querySelectorAll('.email-link').forEach(a => a.addEventListener('click', e => {
+  e.preventDefault();
+  location.href = 'mailto:' + a.dataset.user + '@' + a.dataset.domain;
+}));
+
 // Theme toggle (remembers choice; defaults to system preference)
 const root = document.documentElement;
 document.querySelector('.theme-toggle').addEventListener('click', () => {

@@ -57,7 +57,6 @@
         <div class="prose">
           <!-- EDIT: a few short paragraphs about yourself -->
           <p>I'm studying <strong>Computer Engineering</strong> at the University of Michigan. My core interests are <strong>AI</strong>, <strong>robotics</strong>, <strong>embedded systems</strong>, and <strong>hardware</strong>: the places where code meets the physical world.</p>
-          <p>Right now I'm working on <strong>[current project or role]</strong>. Outside of school you'll find me <strong>[hobbies]</strong>.</p>
         </div>
         <aside class="card facts">
           <h3>Quick facts</h3>
@@ -100,49 +99,57 @@
       <p class="section-sub">A few things I've made.</p>
       <div class="filters" role="group" aria-label="Filter projects">
         <button type="button" class="chip active" data-filter="all">All</button>
-        <button type="button" class="chip" data-filter="code">Code</button>
-        <button type="button" class="chip" data-filter="design">Design</button>
-        <button type="button" class="chip" data-filter="research">Research</button>
+        <button type="button" class="chip" data-filter="robotics">Robotics</button>
+        <button type="button" class="chip" data-filter="embedded">Embedded</button>
+        <button type="button" class="chip" data-filter="ai">AI</button>
+        <button type="button" class="chip" data-filter="hardware">Hardware</button>
+        <button type="button" class="chip" data-filter="web">Web</button>
       </div>
 
-      <!-- EDIT: one <article> per project. data-tags controls the filters above.
+      <!-- EDIT: one <article> per project.
+           data-tags = topics for the filters above (robotics embedded ai hardware web), space-separated.
+           .origin label = where it came from: Course / Club / Personal.
            To add an image, replace the .thumb div's contents with <img src="images/your.png" alt="...">. -->
       <div class="grid">
-        <article class="card project" data-tags="code">
+        <article class="card project" data-tags="robotics ai">
           <div class="thumb" style="--hue: 160">01</div>
           <div class="project-body">
+            <span class="origin">Club</span>
             <h3>Project One</h3>
-            <p>One or two sentences about what it is, what problem it solves, and what you did.</p>
+            <p>Description.</p>
             <ul class="tags small"><li>Python</li><li>Flask</li></ul>
             <div class="links"><a href="https://github.com/JunoYYan">Code →</a><a href="#">Demo →</a></div>
           </div>
         </article>
 
-        <article class="card project" data-tags="design">
+        <article class="card project" data-tags="embedded hardware">
           <div class="thumb" style="--hue: 30">02</div>
           <div class="project-body">
+            <span class="origin">Course</span>
             <h3>Project Two</h3>
-            <p>One or two sentences about what it is, what problem it solves, and what you did.</p>
+            <p>Description.</p>
             <ul class="tags small"><li>Figma</li><li>User research</li></ul>
             <div class="links"><a href="#">Case study →</a></div>
           </div>
         </article>
 
-        <article class="card project" data-tags="research code">
+        <article class="card project" data-tags="ai">
           <div class="thumb" style="--hue: 220">03</div>
           <div class="project-body">
+            <span class="origin">Course</span>
             <h3>Project Three</h3>
-            <p>One or two sentences about what it is, what problem it solves, and what you did.</p>
+            <p>Description.</p>
             <ul class="tags small"><li>Data analysis</li><li>R</li></ul>
             <div class="links"><a href="#">Paper →</a></div>
           </div>
         </article>
 
-        <article class="card project" data-tags="code">
+        <article class="card project" data-tags="web">
           <div class="thumb" style="--hue: 330">04</div>
           <div class="project-body">
+            <span class="origin">Personal</span>
             <h3>Project Four</h3>
-            <p>One or two sentences about what it is, what problem it solves, and what you did.</p>
+            <p>Description.</p>
             <ul class="tags small"><li>React</li><li>TypeScript</li></ul>
             <div class="links"><a href="#">Code →</a></div>
           </div>
@@ -156,25 +163,9 @@
       <!-- EDIT: newest first -->
       <ol class="timeline">
         <li>
-          <span class="when">2026 — Present</span>
-          <div>
-            <h3>Role Title · <span class="org">Organization</span></h3>
-            <p>What you did and the impact, in a sentence or two.</p>
-          </div>
-        </li>
-        <li>
-          <span class="when">Summer 2025</span>
-          <div>
-            <h3>Role Title · <span class="org">Organization</span></h3>
-            <p>What you did and the impact, in a sentence or two.</p>
-          </div>
-        </li>
-        <li>
           <span class="when">20XX — 20XX</span>
           <div>
-            <h3>B.S.E. in Computer Engineering ·<span class="org">University of Michigan</span></h3>
-            <p>Relevant coursework, honors, or activities.</p>
-          </div>
+            <h3>B.S.E. in Computer Engineering ·<span class="org">University of Michigan</span></h3>          </div>
         </li>
       </ol>
     </section>
@@ -184,7 +175,7 @@
       <h2>Let's talk</h2>
       <p class="section-sub">I'm always happy to chat about projects, research, or opportunities.</p>
       <div class="contact-links">
-        <a class="btn primary" href="mailto:yunuoyan@umich.edu">yunuoyan@umich.edu</a>
+        <a class="btn primary email-link" href="#contact" data-user="yunuoyan" data-domain="umich.edu">yunuoyan at umich dot edu</a>
         <a class="btn" href="https://github.com/JunoYYan">GitHub</a>
         <!-- EDIT: your LinkedIn URL -->
         <a class="btn" href="https://www.linkedin.com/">LinkedIn</a>

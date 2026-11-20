@@ -90,7 +90,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .eyebrow { color: var(--accent); font-weight: 600; margin: 0 0 12px; }
 h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.15; margin: 0; }
 h1 { font-size: clamp(2.25rem, 5vw, 3.25rem); letter-spacing: -.02em; }
-.lede { font-size: clamp(1.05rem, 1.8vw, 1.2rem); color: var(--muted); max-width: 36em; margin: 14px 0 24px; }
+.lede { font-size: clamp(1rem, 1.6vw, 1.1rem); color: var(--muted); max-width: 36em; margin: 14px 0 24px; }
 .lede em { color: var(--text); font-style: normal; font-weight: 500; }
 .cta, .contact-links { display: flex; flex-wrap: wrap; gap: 12px; }
 

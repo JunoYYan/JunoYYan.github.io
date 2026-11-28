@@ -7,7 +7,7 @@ AI · Robotics · Embedded Systems · Hardware
 
 [![Website](https://img.shields.io/badge/Website-junoyyan.github.io-2f5d50?style=for-the-badge&logo=googlechrome&logoColor=white)](https://junoyyan.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-JunoYYan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JunoYYan)
-[![Contact](https://img.shields.io/badge/Contact-Get%20in%20touch-00274C?style=for-the-badge&logo=gmail&logoColor=white)](https://junoyyan.github.io/#contact)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Juno%20Yan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juno-yan-b282b52bb/)
 
 ### 🌐 [Visit the live site →](https://junoyyan.github.io/)
 
